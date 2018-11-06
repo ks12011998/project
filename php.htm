@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+	<title>Registartion form</title>
+</head>
+<body>
+ <h2>REGISTRATION FORM<h2>
+<div class="main">
+<b>New user</b>
+<form action="fileinsert.php" method="POST">
+	<table>
+	<tr>
+	<td>ID</td>
+	<td> <input type="text" name="id"></td>
+	</tr>
+		<tr>
+			<td>name: </td>
+			<td> <input type="text" name="username" required></td>
+		</tr>
+		<tr>
+			<td>Password :</td>
+			<td> <input type="password" name="password" required></td>
+		</tr>
+<tr>
+<td> Gender</td>
+<td> <input type="radio" name="gender" value="m" required>Male
+	<input type="radio" name="gender" value="f" required>Female
+</tr>
+<tr>
+     <td> Email</td>
+	<td> <input type="text" name="email" value="" required></td>
+	</tr>
+<tr>
+<td>phone no:</td>
+<td> 
+	<select name="phonecode" required>
+		<option selected hidden="">Select code</option>
+		<option value="977">977</option>
+        <option value="978">978</option>
+        <option value="979">979</option>
+        <option value="973">973</option>
+        <option value="972">972</option>
+         <option value="974">974</option>
+	</select>
+
+	<input type="phone" name="phone" required>
+</tr>	
+<tr>
+	<td><input type="submit" name="submit"></td>
+	</tr>
+	</table>
+</form>
+</div>
+<div class="signin">
+<b>Already registered</b>
+<h4>Sign in</h4>
+<form action="alreadyinserted.php" method="POST">
+<table>
+<tr>
+<td> Emailid</td>
+<td> <input type="text" name="emailid" value="" required></td>
+</tr>
+<tr>
+<td>Passwordused</td>
+<td><input type="password" name="passwordused" required></td>
+</tr>
+<tr class="sub">
+	<td><input type="submit" name="submit"></td>
+	</tr>
+</table>
+</form>
+</div> 
+<div class="next">
+<h3>GO TO NEXT PAGE </h3>
+<h4>In order to complete the registration process</h4>
+<button>NEXT</button>
+<a href="#" class="button">CLICK IT</a>
+<form>
+<div class="dis"><h3>Disclaimers</h3></div>
+<p class="dis"><br>
+Saumya Vishnoi, 06 Oct 2018, #JEE Main Facebook Twitter
+How to fill JEE Main 2019 Application Form - With the approaching exam season a series of questions trouble the minds of the engineering aspirants, one of those being how to fill the JEE Main application form 2019.</br><br> Candidates could make changes in the application form as the correction window was available from October 8 to 14, 2018. The registrations for JEE Main 2019 ended on September 30.</br>
+<br> However, the last date to pay the application fee, upload the signature and photograph was October 1, 2018 (11:50 PM). The process of filling the application form of JEE Main 2019 involved three stages like filling up the application form, uploading of documents and fee payment.<br>
+<br> Candidates were required to be a bit careful while filling up the application form of JEE Main 2019 to avoid any kind of errors. JEE Main aspirants were advised to be familiar with the steps of the application procedure beforehand to ease the stress. Candidates having any doubts regarding how to fill JEE Main 2019 application form can refer to the step by step guide mentioned in the article below.
+</br></p>
+<p>************************************************</p>
+<p>
+<br>
+How to fill JEE Main Application Form 2019?
+The complete process of filling the application form of JEE Main has been given below. Candidates could refer to the procedure given below to clear all doubts regarding how to fill JEE Main 2019 application form:
+</br>
+<br>Filling up the application form: All the required details including personal details, academic details, contact details, exam details have to be entered and submitted. Candidates have to create a password and choose the security question by entering its answer as well.
+</br>
+<br>
+Uploading the required documents: The scanned copy of the required documents which includes candidate’s photograph and candidate’s signature has to be uploaded in the format prescribed by the authorities.
+</br>
+<br>
+Fee payment: The payment of examination fee can be done online through Debit card, credit card/ internet banking or offline by downloading the E-challan. The examination fee varies according to the gender, category, etc.
+</br>
+<br>
+Print out of the acknowledgement page: The acknowledgement slip has to be downloaded and a print out has 
+</br></p>
+</form>
+</div>
+
+<style>
+body{
+background-color:silver;
+font-size:150%;
+text-align:center;
+padding:0%;
+padding-left:1%;
+padding-right:1%;
+}
+.main{
+float:left;
+border:5px solid blue;
+width:40%;
+border-radius: 5px 5px 5px 5px;
+text-color:#FFF;
+}
+.signin
+{
+float:right;
+border:5px solid brown;
+width:40%;
+padding-left:5px;
+border-radius: 5px 5px 5px 5px;
+text-color:#FFF;
+}
+.next{
+padding:400px;
+font-size:20px;
+border:5px solid;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.dis{
+border: 2px dotted red;
+border-radius:1px 1px 1px 1px;
+}
+</style>
+</body>
+</html>
